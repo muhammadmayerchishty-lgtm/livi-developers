@@ -1,0 +1,6 @@
+{
+  "name": "LIVI DEVELOPERS | Luxury Real Estate Lahore",
+  "description": "A new standard of modern living. Luxury 3D animated real estate showcase for LIVI DEVELOPERS featuring premium villas, houses, apartments, and plots in Lahore, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

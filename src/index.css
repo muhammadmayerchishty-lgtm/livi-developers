@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --font-syne: 'Syne', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --color-brand-bg: #0E1214;
+  --color-brand-card: #161C1F;
+  --color-brand-card-hover: #1E2529;
+  --color-brand-gold: #C9A66B;
+  --color-brand-gold-hover: #D8B57B;
+  --color-brand-gold-muted: rgba(201, 166, 107, 0.2);
+  --color-brand-text: #F2EFE9;
+  --color-brand-muted: #9AA3A8;
+  --color-brand-border: rgba(255, 255, 255, 0.08);
+}
+
+:root {
+  color-scheme: dark;
+  --bg-primary: #0E1214;
+  --bg-card: #161C1F;
+  --gold-accent: #C9A66B;
+  --text-primary: #F2EFE9;
+  --text-muted: #9AA3A8;
+}
+
+html {
+  background-color: #0E1214;
+  color: #F2EFE9;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #0E1214;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, .font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0E1214;
+}
+::-webkit-scrollbar-thumb {
+  background: #252D32;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A66B;
+}
+
+/* Luxury glow and subtle effects */
+.gold-glow {
+  box-shadow: 0 0 25px rgba(201, 166, 107, 0.25);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F2EFE9 0%, #C9A66B 50%, #EAD4AA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hairline-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hairline-gold {
+  border: 1px solid rgba(201, 166, 107, 0.3);
+}
